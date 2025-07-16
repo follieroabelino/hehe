@@ -1,5 +1,3 @@
-# .github/workflows/rerun.yml
-
 name: Rerun workflow
 
 on:
