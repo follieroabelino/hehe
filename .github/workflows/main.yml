@@ -17,12 +17,12 @@ jobs:
       - name: nodejs
         uses: actions/setup-node@v2
         with:
-          node-version: '22'  
+          node-version: '20'  
 
       - name: apt
         run: |
           sudo apt update -y
-          sudo apt install -y ffmpeg neofetch sox imagemagick
+          sudo apt install -y ffmpeg neofetch sox
 
       - name: git clone
         run: git clone ${{ secrets.sc1 }}
